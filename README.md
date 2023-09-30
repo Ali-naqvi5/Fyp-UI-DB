@@ -2,12 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install 🎇dependencies🎇 
+Run 
+🎇 npm i axios react-hot-toast nodemailer bcryptjs jsonwebtoken mongoose 🎇
 
-```bash
-npm run dev
+replace your mongodb 🎇credentials🎇 with mine
+
+Run the development server
+
+🎇 npm run dev 🎇
 # or
-yarn dev
+  🎇 yarn dev 🎇
 # or
 pnpm dev
 # or
