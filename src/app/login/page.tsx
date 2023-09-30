@@ -83,7 +83,7 @@ export default function LoginPage() {
                         } rounded-md focus:outline-none`}
                     disabled={!isFormValid()}>Login</button><br />
                 <p className="mt-4 text-sm text-center text-white">
-                    Don't have an account?{" "}
+                    Dont have an account?{" "}
                     <Link href="/signup" className="font-medium text-blue-600 hover:underline">
                         Sign up
                     </Link> </p>

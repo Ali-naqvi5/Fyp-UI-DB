@@ -1,11 +1,9 @@
 "use client";
 import axios from "axios";
-import Link from "next/link";
 import React, {useState , useEffect} from "react";
 import {toast} from "react-hot-toast";
-import {useRouter} from "next/navigation";
 import Navbar from "../components/nav"
-
+import Image from "next/image";
 
 export default function ProfilePage() {
     const [user, setUser] = useState({
@@ -94,7 +92,7 @@ useEffect(() => {
                         {selectedFile ? (
                             <div>
                                 <p className="text-lg font-semibold mb-2">Selected Image:</p>
-                                <img
+                                <Image
                                     src={URL.createObjectURL(selectedFile)}
                                     alt="Selected"
                                     className="max-w-md mx-auto"
